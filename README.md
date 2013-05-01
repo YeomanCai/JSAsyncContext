@@ -232,8 +232,8 @@ function nested1() {
   }
 }
 ```
-
-Fig. Execution flow  
+![Execution Flow](flow.png)  
+*Fig. Execution flow*  
 You can create as complicated sequence of calls as you like and have precision control of execution flow.
 
 $do.$if
@@ -340,13 +340,12 @@ function slowSum(item, callback) {
   )
 }
 function displayResult() {
-        alert(sum); //should equals 6
+  alert(sum); //should equals 6
 }
 ```
 
 $do.forEachAsync
 ----------------
-
 Same as $do.forEachSync (see above), but all elements processed in parallel.
 
 $do.sync
