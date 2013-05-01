@@ -417,4 +417,4 @@ function AsyncContext(contextCallback, parentContext) {
     function isAsyncFunction (func) {
         return func.length>0;
     }
-};
+}
